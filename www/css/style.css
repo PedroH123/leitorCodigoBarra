@@ -1,2 +1,26 @@
 /**/
 
+main{
+  text-align: center;
+}
+#botao{
+    width: 80%;
+    height: 80px;
+    margin-top: 60%; 
+}
+
+.topo{
+  height: 50px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: red; 
+}
+
+.rodape{
+  margin-top: 233px;
+  height: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: red; 
+}
