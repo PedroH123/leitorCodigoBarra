@@ -5,6 +5,18 @@ $(document).on("click","#botao",function(){
             if(result.text == 280720550){
                  $(location).attr("href", "codigo1.html")
             }
+            else if(result.text == 989895555){
+                 $(location).attr("href", "codigo2.html")
+            }
+            else if(result.text == 85236987){
+                 $(location).attr("href", "codigo3.html")
+            }
+            else if(result.text == 85369877444){
+                 $(location).attr("href", "codigo4.html")
+            }
+            else{
+              alert("ERRO : CÓDIGO INVÁLIDO")
+            }
       },
       function (error) {
           alert("Scanning failed: " + error);
