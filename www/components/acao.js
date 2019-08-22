@@ -1,3 +1,27 @@
+$(document).ready(function(){
+  $(".infoTecnica1").show();
+  $(".infoEspecificacoes1").hide();
+  $(".infoCamera").hide();
+
+  $(document).on("click", ".fichaTec1", function(){
+
+    $(".infoTecnica1").show();
+    $(".infoEspecificacoes1").hide();
+    $(".infoCamera").hide();
+  })
+
+  $(document).on("click", ".espec1", function(){
+
+    $(".infoTecnica1").hide();
+    $(".infoEspecificacoes1").show();
+    $(".infoCamera").hide();
+  })
+
+  $(document).on("click", ".camera1", function(){
+    $(".infoTecnica1").hide();
+    $(".infoEspecificacoes1").hide();
+    $(".infoCamera").show();
+  })
 
 $(document).on("click","#botao",function(){
     cordova.plugins.barcodeScanner.scan(
@@ -35,4 +59,5 @@ $(document).on("click","#botao",function(){
           disableSuccessBeep: false // iOS and Android
       }
    );
+})
 })
