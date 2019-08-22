@@ -8,15 +8,29 @@
     height: 80px;
     margin-top: 60%; 
 }
+.infoEspecificacoes1{
+  text-align: left;
+  margin: 0;
+  padding-top: 1vh;
+  padding-left: 1vh;
 
+}
 .topo{
   position: fixed;
   top: 0;
   background-color: #c55353;
   height: 9vh;
   width: 100%;
-  border-bottom-left-radius: 1vh;
-  border-bottom-right-radius: 1vh;
+}
+.infoTecnica1{
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.infoCamera{
+  text-align: left;
+  padding-top: 1vh;
+  padding-left: 1vh;
 }
 .container{
   width: 100%;
@@ -24,15 +38,14 @@
 }
 .imagem{
   position: fixed;
-  background-color: purple;
   top: 10vh;
   left: 3vh;
   height: 30vh;
   width: 90%;
 }
 .tituloProduto{
+  border-top: solid 0.1px hsl(0, 5%, 92%);
   position:  fixed;
-  background-color: pink;
   top: 40vh;
   left: 3vh;
   width: 90%;
@@ -40,26 +53,60 @@
 }
 .informacaoAp{
   position: fixed;
-  background-color: whitesmoke;
   top: 52vh;
   left: 1.5vh;
   height: 37vh;
-  width: 95%;
+  width: 94.9%;
+  border: solid 0.1px #cecece;
+  background-color: whitesmoke;
 }
-
+button{
+  border: none;
+}
 .botoes{
   position: fixed;
-  background-color: yellow;
   width: 95%;
   top: 47vh;
   left: 1.5vh;
   height: 5vh;
 
 }
+.botao2{
+  position: fixed;
+  width: 33%;
+  height: 5vh;
+  left: 18vh;
+}
+.botao1{
+  position: fixed;
+  width: 33%;
+  height: 20%;
+
+}
+
+#fichaTc{
+  height: 25%;
+}
+.btnDados{
+  width: 100%;
+  height: 100%;
+  border: 0.1px solid #c55353;
+  background-color: hsl(0, 58%, 59%)
+}
+.botao3{
+
+  position: fixed;
+  width: 33.6%;
+  height: 5vh;
+  left: 36vh;
+}
+
 .centro{
-  background-color: blue;
   width: 100%;
   height: 100vh;
+}
+.titleProd{
+  text-align: center;
 }
 img{
   width: 100%;
@@ -71,6 +118,5 @@ img{
   height: 9vh;
   width: 100%;
   background-color: #c55353; 
-  border-top-left-radius: 1vh;
-  border-top-right-radius: 1vh;
+
 }

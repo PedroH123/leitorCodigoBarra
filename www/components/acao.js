@@ -1,3 +1,5 @@
+$(document).ready(function(){
+  
 
 $(document).on("click","#botao",function(){
     cordova.plugins.barcodeScanner.scan(
@@ -35,4 +37,5 @@ $(document).on("click","#botao",function(){
           disableSuccessBeep: false // iOS and Android
       }
    );
+})
 })
