@@ -5,11 +5,18 @@ main{
 *{
   margin: 0;
   padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
 }
 #botao{
     width: 80%;
     height: 80px;
-    margin-top: 60%; 
+    margin-top: 60%;
+    border-radius: 6vh; 
 }
 .infoEspecificacoes1{
   text-align: left;
@@ -122,4 +129,25 @@ img{
   width: 100%;
   background-color: #c55353; 
 
+}
+
+
+
+.btnDados:link{
+  outline: 0;
+   
+}
+
+.btnDados:focus{
+  outline: 0;
+  background-color: hsl(0, 39%, 45%); 
+}
+
+#botao:link{
+  outline: 0;
+}
+
+#botao:focus{
+  outline: 0;
+  background-color: #acacac;
 }
